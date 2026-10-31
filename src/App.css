@@ -1,0 +1,65 @@
+#root {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.kpi-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+  flex-wrap: nowrap;
+}
+
+.kpi-card {
+  flex: 0 1 130px;
+  min-width: 0;
+
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: white;
+
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.kpi-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #254e70;
+}
+
+.kpi-label {
+  margin-top: 0.5rem;
+  color: #6b7280;
+  font-size: 0.8rem;
+}
+
+.chart-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .kpi-container {
+    flex-wrap: wrap;
+  }
+
+  .kpi-card {
+    min-width: 180px;
+  }
+
+  svg text {
+    font-size: 10px;
+  }
+}
