@@ -60,8 +60,8 @@ function App() {
         </div>
 
         <div className="kpi-card">
-          <div className="kpi-value">29%</div>
-          <div className="kpi-label">USA Share (Largest)</div>
+          <div className="kpi-value">USA</div>
+          <div className="kpi-label">Largest Share</div>
         </div>
       </div>
 

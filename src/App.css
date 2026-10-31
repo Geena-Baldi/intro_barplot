@@ -6,6 +6,10 @@
   padding: 2rem;
 }
 
+h2 {
+  color: black;
+}
+
 .app {
   width: 100%;
   max-width: 1200px;
